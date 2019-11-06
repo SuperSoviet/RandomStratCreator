@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RandomRoleSelector", "RandomRoleSelector\RandomRoleSelector.csproj", "{16E1CEEB-6BD4-4309-8D1A-1B3EB91C805E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RandomStratCreator", "RandomStratCreator\RandomStratCreator.csproj", "{16E1CEEB-6BD4-4309-8D1A-1B3EB91C805E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

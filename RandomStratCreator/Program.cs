@@ -1,12 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace RandomRoleSelector
+namespace RandomStratCreator
 {
     class Program
     {
         static void Main(string[] args)
         {
+            
+            
             Console.WriteLine("Welcome to the League of Legends Random strat creator!");
             var random = new Random();
             var list = new List<string> {"Top", "Jungle", "Mid", "Bot", "Support"};

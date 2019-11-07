@@ -18,15 +18,16 @@ namespace RandomStratCreator
             while (!shouldExit)
             {
                 
-                Console.WriteLine("[--------------------------------------]");
-                Console.WriteLine("|           Choose an option:          |");
-                Console.WriteLine("|                                      |");
-                Console.WriteLine("|1) Select a random champion           |");
-                Console.WriteLine("|2) Select a random role               |");
-                Console.WriteLine("|3) Select a random strat              |");
-                Console.WriteLine("|4) Select a random role and champion  |");
-                Console.WriteLine("|5) Exit program                       |");
-                Console.WriteLine("[--------------------------------------]");
+                Console.WriteLine("[--------------------------------------------]");
+                Console.WriteLine("|               Choose an option:            |");
+                Console.WriteLine("|                                            |");
+                Console.WriteLine("|1) Selects a random champion                |");
+                Console.WriteLine("|2) Selects a random role                    |");
+                Console.WriteLine("|3) Selects a random strat                   |");
+                Console.WriteLine("|4) Selects a random role and champion       |");
+                Console.WriteLine("|5) Selects a random role, champion and strat|");
+                Console.WriteLine("|6) Exit program                             |");
+                Console.WriteLine("[--------------------------------------------]");
 
                 string userInput;
                 int chosenMenuItem;
@@ -57,6 +58,12 @@ namespace RandomStratCreator
                 }
 
                 if (chosenMenuItem == 5)
+                {
+                    SelectRandomChampAndRole();
+                    RandomStrats();
+                }
+
+                if (chosenMenuItem == 6)
                 {
                     shouldExit = true;
                     continue;

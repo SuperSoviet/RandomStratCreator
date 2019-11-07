@@ -7,88 +7,108 @@ namespace RandomStratCreator
     {
         static void Main(string[] args)
         {
+            MainMenu();
+        }
 
-            Console.Clear();
+        private static void MainMenu()
+        {
             Console.WriteLine("Welcome to the League of Legends Random strat creator!");
-            Console.WriteLine("Choose an option:");
-            Console.WriteLine("1) Select a random champion");
-            Console.WriteLine("2) Select a random role");
-            Console.WriteLine("3) Select a random strat");
-            Console.WriteLine("4) Select a random role and champion");
+            bool shouldExit = false;
 
-            string userInput;
-            int chosenMenuItem;
-            do
+            while (!shouldExit)
             {
-                Console.Write("\r\nSelect an option: ");
-                userInput = Console.ReadLine();
+                
+                Console.WriteLine("[--------------------------------------]");
+                Console.WriteLine("|           Choose an option:          |");
+                Console.WriteLine("|                                      |");
+                Console.WriteLine("|1) Select a random champion           |");
+                Console.WriteLine("|2) Select a random role               |");
+                Console.WriteLine("|3) Select a random strat              |");
+                Console.WriteLine("|4) Select a random role and champion  |");
+                Console.WriteLine("|5) Exit program                       |");
+                Console.WriteLine("[--------------------------------------]");
 
-            } while (!int.TryParse(userInput, out chosenMenuItem));
+                string userInput;
+                int chosenMenuItem;
+                do
+                {
+                    Console.Write("\r\nSelect an option: ");
+                    userInput = Console.ReadLine();
+                } while (!int.TryParse(userInput, out chosenMenuItem));
 
-            if (chosenMenuItem == 1)
-            {
-                selectRandomChampion();
+                if (chosenMenuItem == 1)
+                {
+                    SelectRandomChampion();
+                }
+
+                if (chosenMenuItem == 2)
+                {
+                    SelectRandomRole();
+                }
+
+                if (chosenMenuItem == 3)
+                {
+                    RandomStrats();
+                }
+
+                if (chosenMenuItem == 4)
+                {
+                    SelectRandomChampAndRole();
+                }
+
+                if (chosenMenuItem == 5)
+                {
+                    shouldExit = true;
+                    continue;
+                }
+                Console.WriteLine("Press any button to continue...");
+                Console.ReadKey(true);
+                Console.Clear();
             }
-
-            if (chosenMenuItem == 2)
-            {
-                selectRandomrole();
-            }
-
-            if (chosenMenuItem == 3)
-            {
-                randomStrats();
-            } 
-            if (chosenMenuItem == 4)
-            {
-                SelectRandomChampAndRole();
-            }
-
         }
 
         private static void SelectRandomChampAndRole()
         {
-
-            var random = new Random();
-            var list = new List<string> {"Top", "Jungle", "Mid", "Bot", "Support"};
-            int index = random.Next(list.Count);
-            Console.WriteLine(list[index]);
+            SelectRandomRole();
 
 
-            var champion = new Random();
-            var championList = new List<string> {"aatrox", "ahri", "akali", "alistar", "amumu", "anivia", "annie"};
-            index = random.Next(championList.Count);
-            Console.WriteLine(championList[index]);
-
+            SelectRandomChampion();
         }
 
-        private static void selectRandomrole()
+        private static void SelectRandomRole()
         {
             var random = new Random();
             var list = new List<string> {"Top", "Jungle", "Mid", "Bot", "Support"};
             int index = random.Next(list.Count);
             Console.WriteLine(list[index]);
         }
-        
-        private static void selectRandomChampion()
+
+        private static void SelectRandomChampion()
         {
             var random = new Random();
-            var championList = new List<string> {"aatrox", "ahri", "akali", "alistar", "amumu", "anivia", "annie"};
+            var championList = new List<string> {"Aatrox", "Ahri", "Akali", "Alistar", "Amumu", "Anivia", "Annie"};
             int index = random.Next();
             var champion = new Random();
-            
+
             index = random.Next(championList.Count);
             Console.WriteLine(championList[index]);
         }
-        private static void randomStrats()
+
+        private static void RandomStrats()
         {
             var random = new Random();
-            var list = new List<string> {"Do the Tyler1 : Run it down Mid", "Kayn main at heart : Play Rhaast but use shadow assassin items and runes", "Vayne is my main : Play full AD Vayne", "Helping my team from the jungle : Play a support in the jungle", "0 Deaths : try to have no deaths even if it causes your team to die"};
+            var list = new List<string>
+            {
+                "Do the Tyler1 : Run it down Mid",
+                "Kayn main at heart : Play Rhaast but use shadow assassin items and runes",
+                "Vayne is my main : Play full AD Vayne",
+                "Helping my team from the jungle : Play a support in the jungle",
+                "0 Deaths : try to have no deaths even if it causes your team to die"
+            };
             int index = random.Next(list.Count);
             Console.WriteLine(list[index]);
+            
+
         }
-
-
-
     }
-}    
+}

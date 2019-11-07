@@ -68,6 +68,11 @@ namespace RandomStratCreator
                     shouldExit = true;
                     continue;
                 }
+
+                if (chosenMenuItem == 69420)
+                {
+                    Console.WriteLine("You found me :D");
+                }
                 Console.WriteLine("Press any button to continue...");
                 Console.ReadKey(true);
                 Console.Clear();

@@ -3,21 +3,19 @@ using System.Collections.Generic;
 
 namespace RandomStratCreator {
   class Program {
+    // fields
+    private static bool _shouldExit;
     static void Main(string[] args) {
       MainMenu();
     }
 
     private static void MainMenu() {
       OptionsMenu();
-
     }
 
     private static void OptionsMenu() {
       Console.WriteLine("Welcome to the League of Legends Random strat creator!");
-      bool shouldExit = false;
-
-      while (!shouldExit) {
-
+      while (!_shouldExit) {
         Console.WriteLine("[--------------------------------------------]");
         Console.WriteLine("|               Choose an option:            |");
         Console.WriteLine("|                                            |");
@@ -25,7 +23,8 @@ namespace RandomStratCreator {
         Console.WriteLine("|2) Selects a random role                    |");
         Console.WriteLine("|3) Selects a random strat                   |");
         Console.WriteLine("|4) Selects a random role and champion       |");
-        Console.WriteLine("|5) Exit program                             |");
+        Console.WriteLine("|5) Randomly gives you one of the options    |");
+        Console.WriteLine("|6) Exit program                             |");
         Console.WriteLine("[--------------------------------------------]");
 
         string userInput;
@@ -35,33 +34,45 @@ namespace RandomStratCreator {
           userInput = Console.ReadLine();
         } while (!int.TryParse(userInput, out chosenMenuItem));
 
-        if (chosenMenuItem == 1) {
-          SelectRandomChampion();
-        }
+        DoMenu(chosenMenuItem);
 
-        if (chosenMenuItem == 2) {
-          SelectRandomRole();
-        }
 
-        if (chosenMenuItem == 3) {
-          RandomStrats();
-        }
 
-        if (chosenMenuItem == 4) {
-          SelectRandomChampAndRole();
-        }
-
-        if (chosenMenuItem == 5) {
-          shouldExit = true;
-          continue;
-        }
-
-        if (chosenMenuItem == 69420) {
-          SelectSecret();
-        }
         Console.WriteLine("Press any button to continue...");
         Console.ReadKey(true);
         Console.Clear();
+      }
+    }
+
+    private static void DoMenu(int chosenMenuItem) {
+      if (chosenMenuItem == 1) {
+        SelectRandomChampion();
+      }
+
+      if (chosenMenuItem == 2) {
+        SelectRandomRole();
+      }
+
+      if (chosenMenuItem == 3) {
+        RandomStrats();
+      }
+
+      if (chosenMenuItem == 4) {
+        SelectRandomChampAndRole();
+      }
+      if (chosenMenuItem == 6) {
+        _shouldExit = true;
+      }
+
+      if (chosenMenuItem == 69420) {
+        SelectSecret();
+      }
+
+      if (chosenMenuItem == 5) {
+        Random choosebetweenmenu = new Random();
+        int cbmInt = choosebetweenmenu.Next(1, 4);
+        DoMenu(cbmInt);
+
       }
     }
 
@@ -86,10 +97,7 @@ namespace RandomStratCreator {
     private static void SelectRandomChampion() {
       var random = new Random();
       var championList = new List<string> { "Aatrox", "Ahri", "Akali", "Alistar", "Amumu", "Anivia", "Annie" };
-      int index = random.Next();
-      var champion = new Random();
-
-      index = random.Next(championList.Count);
+      var index = random.Next(championList.Count);
       Console.WriteLine(championList[index]);
     }
 
@@ -102,11 +110,11 @@ namespace RandomStratCreator {
                 "Vayne is my main : Play full AD Vayne",
                 "Helping my team from the jungle : Play a support in the jungle",
                 "0 Deaths : try to have no deaths even if it causes your team to die"
-            };
+      };
       int index = random.Next(list.Count);
       Console.WriteLine(list[index]);
-
 
     }
   }
 }
+

@@ -103,7 +103,7 @@ namespace RandomStratCreator {
 
     private static void RandomStrats() {
       var random = new Random();
-      var list = new List<string>
+      var stratlist = new List<string>
       {
                 "Do the Tyler1 : Run it down Mid",
                 "Kayn main at heart : Play Rhaast but use shadow assassin items and runes",
@@ -111,8 +111,8 @@ namespace RandomStratCreator {
                 "Helping my team from the jungle : Play a support in the jungle",
                 "0 Deaths : try to have no deaths even if it causes your team to die"
       };
-      int index = random.Next(list.Count);
-      Console.WriteLine(list[index]);
+      int index = random.Next(stratlist.Count);
+      Console.WriteLine(stratlist[index]);
     }
   }
 }

@@ -36,6 +36,8 @@
       this.button4 = new System.Windows.Forms.Button();
       this.pbMainmenu = new System.Windows.Forms.PictureBox();
       this.lblLinkGithub = new System.Windows.Forms.LinkLabel();
+      this.lblStrat = new System.Windows.Forms.Button();
+      this.lblRandomOption = new System.Windows.Forms.Button();
       ((System.ComponentModel.ISupportInitialize)(this.pbMainmenu)).BeginInit();
       this.SuspendLayout();
       // 
@@ -78,7 +80,7 @@
       // 
       // label2
       // 
-      this.label2.Location = new System.Drawing.Point(12, 38);
+      this.label2.Location = new System.Drawing.Point(12, 32);
       this.label2.Name = "label2";
       this.label2.Size = new System.Drawing.Size(194, 17);
       this.label2.TabIndex = 6;
@@ -94,7 +96,7 @@
       // 
       // label4
       // 
-      this.label4.Location = new System.Drawing.Point(12, 87);
+      this.label4.Location = new System.Drawing.Point(12, 101);
       this.label4.Name = "label4";
       this.label4.Size = new System.Drawing.Size(174, 18);
       this.label4.TabIndex = 8;
@@ -102,7 +104,7 @@
       // 
       // label5
       // 
-      this.label5.Location = new System.Drawing.Point(12, 114);
+      this.label5.Location = new System.Drawing.Point(12, 133);
       this.label5.Name = "label5";
       this.label5.Size = new System.Drawing.Size(284, 22);
       this.label5.TabIndex = 9;
@@ -122,7 +124,7 @@
       // 
       // button4
       // 
-      this.button4.Location = new System.Drawing.Point(330, 61);
+      this.button4.Location = new System.Drawing.Point(330, 62);
       this.button4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
       this.button4.Name = "button4";
       this.button4.Size = new System.Drawing.Size(63, 25);
@@ -151,12 +153,34 @@
       this.lblLinkGithub.Text = "My Github";
       this.lblLinkGithub.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.lblLinkGithub_LinkClicked);
       // 
+      // lblStrat
+      // 
+      this.lblStrat.Location = new System.Drawing.Point(330, 95);
+      this.lblStrat.Name = "lblStrat";
+      this.lblStrat.Size = new System.Drawing.Size(63, 28);
+      this.lblStrat.TabIndex = 14;
+      this.lblStrat.Text = "Select";
+      this.lblStrat.UseVisualStyleBackColor = true;
+      this.lblStrat.Click += new System.EventHandler(this.lblStrat_Click);
+      // 
+      // lblRandomOption
+      // 
+      this.lblRandomOption.Location = new System.Drawing.Point(330, 131);
+      this.lblRandomOption.Name = "lblRandomOption";
+      this.lblRandomOption.Size = new System.Drawing.Size(63, 24);
+      this.lblRandomOption.TabIndex = 15;
+      this.lblRandomOption.Text = "Select";
+      this.lblRandomOption.UseVisualStyleBackColor = true;
+      this.lblRandomOption.Click += new System.EventHandler(this.lblRandomOption_Click);
+      // 
       // Form1
       // 
       this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
       this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
       this.BackColor = System.Drawing.SystemColors.Control;
       this.ClientSize = new System.Drawing.Size(459, 283);
+      this.Controls.Add(this.lblRandomOption);
+      this.Controls.Add(this.lblStrat);
       this.Controls.Add(this.lblLinkGithub);
       this.Controls.Add(this.button4);
       this.Controls.Add(this.btnRandomChampion);
@@ -193,6 +217,8 @@
     private System.Windows.Forms.Button button4;
     private System.Windows.Forms.PictureBox pbMainmenu;
     private System.Windows.Forms.LinkLabel lblLinkGithub;
+    private System.Windows.Forms.Button lblStrat;
+    private System.Windows.Forms.Button lblRandomOption;
   }
 }
 

@@ -15,6 +15,8 @@ namespace Winformversion
     {
         private RandomChampion _inChampScreen = new RandomChampion();
     private RandomRole _inRandomRoleScreen = new RandomRole();
+    private RandomStrat _inRandomStratScreen = new RandomStrat();
+    private RandomOption _inRandomOptionScreen = new RandomOption();
         public Form1()
         {
             InitializeComponent();
@@ -38,6 +40,14 @@ namespace Winformversion
       lblLinkGithub.LinkVisited = true;
 
       System.Diagnostics.Process.Start("https://github.com/SuperSoviet");
+    }
+
+    private void lblStrat_Click(object sender, EventArgs e) {
+      _inRandomStratScreen.Show();
+    }
+
+    private void lblRandomOption_Click(object sender, EventArgs e) {
+      _inRandomOptionScreen.Show();
     }
   }
 }

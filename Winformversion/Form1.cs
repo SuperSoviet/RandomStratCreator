@@ -9,28 +9,24 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Windows.Forms.VisualStyles;
 
-namespace Winformversion
-{
-    public partial class Form1 : Form
-    {
-        private RandomChampion _inChampScreen = new RandomChampion();
+namespace Winformversion {
+  public partial class Form1 : Form {
+    private RandomChampion _inChampScreen = new RandomChampion();
     private RandomRole _inRandomRoleScreen = new RandomRole();
     private RandomStrat _inRandomStratScreen = new RandomStrat();
     private RandomOption _inRandomOptionScreen = new RandomOption();
-        public Form1()
-        {
-            InitializeComponent();
-          
-        }
+    
+    public Form1() {
+      InitializeComponent();
 
-        private void btnExit_Click(object sender, EventArgs e)
-        {
-            Close();
-        }
-        private void btnRandomChampion_Click(object sender, EventArgs e)
-        {
-            _inChampScreen.Show();
-        }
+    }
+
+    private void btnExit_Click(object sender, EventArgs e) {
+      Close();
+    }
+    private void btnRandomChampion_Click(object sender, EventArgs e) {
+      _inChampScreen.Show();
+    }
 
     private void button4_Click(object sender, EventArgs e) {
       _inRandomRoleScreen.Show();

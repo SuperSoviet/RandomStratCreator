@@ -6,6 +6,7 @@ using System.Windows.Forms;
 
 namespace Winformversion {
   static class Program {
+
     /// <summary>
     ///  The main entry point for the application.
     /// </summary>
@@ -14,6 +15,8 @@ namespace Winformversion {
       Application.EnableVisualStyles();
       Application.SetCompatibleTextRenderingDefault(false);
       Application.Run(new Form1());
+
     }
+
   }
 }

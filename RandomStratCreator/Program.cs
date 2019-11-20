@@ -89,9 +89,9 @@ namespace RandomStratCreator {
 
     private static void SelectRandomRole() {
       var random = new Random();
-      var list = new List<string> { "Top", "Jungle", "Mid", "Bot", "Support" };
-      int index = random.Next(list.Count);
-      Console.WriteLine(list[index]);
+      var rolelist = new List<string> { "Top", "Jungle", "Mid", "Bot", "Support" };
+      int index = random.Next(rolelist.Count);
+      Console.WriteLine(rolelist[index]);
     }
 
     private static void SelectRandomChampion() {
@@ -113,7 +113,6 @@ namespace RandomStratCreator {
       };
       int index = random.Next(list.Count);
       Console.WriteLine(list[index]);
-
     }
   }
 }

@@ -25,6 +25,8 @@
     private void InitializeComponent() {
       this.lblReturnMain = new System.Windows.Forms.Button();
       this.lblRandomOption = new System.Windows.Forms.Label();
+      this.pictureBox1 = new System.Windows.Forms.PictureBox();
+      ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
       this.SuspendLayout();
       // 
       // lblReturnMain
@@ -47,17 +49,28 @@
       this.lblRandomOption.Text = "Press here to select one of the random options";
       this.lblRandomOption.Click += new System.EventHandler(this.lblRandomOption_Click);
       // 
+      // pictureBox1
+      // 
+      this.pictureBox1.ImageLocation = "https://media1.giphy.com/media/l2Sq70sCn6RnYHCeY/giphy.gif";
+      this.pictureBox1.Location = new System.Drawing.Point(2, -140);
+      this.pictureBox1.Name = "pictureBox1";
+      this.pictureBox1.Size = new System.Drawing.Size(607, 565);
+      this.pictureBox1.TabIndex = 2;
+      this.pictureBox1.TabStop = false;
+      // 
       // RandomOption
       // 
       this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
       this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-      this.ClientSize = new System.Drawing.Size(532, 303);
+      this.ClientSize = new System.Drawing.Size(582, 353);
       this.Controls.Add(this.lblRandomOption);
       this.Controls.Add(this.lblReturnMain);
-      this.MaximumSize = new System.Drawing.Size(550, 350);
-      this.MinimumSize = new System.Drawing.Size(550, 350);
+      this.Controls.Add(this.pictureBox1);
+      this.MaximumSize = new System.Drawing.Size(600, 400);
+      this.MinimumSize = new System.Drawing.Size(600, 400);
       this.Name = "RandomOption";
       this.Text = "RandomOption";
+      ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
       this.ResumeLayout(false);
       this.PerformLayout();
 
@@ -67,5 +80,6 @@
 
     private System.Windows.Forms.Button lblReturnMain;
     private System.Windows.Forms.Label lblRandomOption;
+    private System.Windows.Forms.PictureBox pictureBox1;
   }
 }

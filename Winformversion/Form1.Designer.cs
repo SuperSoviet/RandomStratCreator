@@ -24,6 +24,7 @@
     /// </summary>
     private void InitializeComponent()
     {
+      System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
       this.fillin = new System.Windows.Forms.TextBox();
       this.Exit = new System.Windows.Forms.Button();
       this.btnExit = new System.Windows.Forms.Button();
@@ -73,7 +74,7 @@
       // 
       // label1
       // 
-      this.label1.Location = new System.Drawing.Point(22, 6);
+      this.label1.Location = new System.Drawing.Point(8, 9);
       this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
       this.label1.Name = "label1";
       this.label1.Size = new System.Drawing.Size(301, 15);
@@ -82,7 +83,7 @@
       // 
       // label2
       // 
-      this.label2.Location = new System.Drawing.Point(9, 26);
+      this.label2.Location = new System.Drawing.Point(9, 31);
       this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
       this.label2.Name = "label2";
       this.label2.Size = new System.Drawing.Size(146, 14);
@@ -109,7 +110,8 @@
       // 
       // label5
       // 
-      this.label5.Location = new System.Drawing.Point(9, 108);
+      this.label5.BackColor = System.Drawing.SystemColors.Control;
+      this.label5.Location = new System.Drawing.Point(9, 110);
       this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
       this.label5.Name = "label5";
       this.label5.Size = new System.Drawing.Size(213, 18);
@@ -141,11 +143,13 @@
       // 
       // pbMainmenu
       // 
-      this.pbMainmenu.ImageLocation = "https://thumbs.gfycat.com/CostlyBriefFieldspaniel-small.gif";
-      this.pbMainmenu.Location = new System.Drawing.Point(76, -12);
+      this.pbMainmenu.Image = ((System.Drawing.Image)(resources.GetObject("pbMainmenu.Image")));
+      this.pbMainmenu.ImageLocation = "";
+      this.pbMainmenu.Location = new System.Drawing.Point(68, 1);
       this.pbMainmenu.Margin = new System.Windows.Forms.Padding(2);
       this.pbMainmenu.Name = "pbMainmenu";
-      this.pbMainmenu.Size = new System.Drawing.Size(516, 599);
+      this.pbMainmenu.Size = new System.Drawing.Size(269, 228);
+      this.pbMainmenu.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
       this.pbMainmenu.TabIndex = 12;
       this.pbMainmenu.TabStop = false;
       // 
@@ -187,7 +191,7 @@
       // 
       this.lblSecret.BackColor = System.Drawing.Color.Transparent;
       this.lblSecret.ForeColor = System.Drawing.Color.Transparent;
-      this.lblSecret.Location = new System.Drawing.Point(9, 211);
+      this.lblSecret.Location = new System.Drawing.Point(323, 1);
       this.lblSecret.Name = "lblSecret";
       this.lblSecret.Size = new System.Drawing.Size(100, 23);
       this.lblSecret.TabIndex = 16;
@@ -199,7 +203,6 @@
       this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
       this.BackColor = System.Drawing.SystemColors.Control;
       this.ClientSize = new System.Drawing.Size(346, 236);
-      this.Controls.Add(this.lblSecret);
       this.Controls.Add(this.lblRandomOption);
       this.Controls.Add(this.lblStrat);
       this.Controls.Add(this.lblLinkGithub);
@@ -214,6 +217,8 @@
       this.Controls.Add(this.Exit);
       this.Controls.Add(this.fillin);
       this.Controls.Add(this.pbMainmenu);
+      this.Controls.Add(this.lblSecret);
+      this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
       this.Location = new System.Drawing.Point(19, 19);
       this.Margin = new System.Windows.Forms.Padding(2);
       this.MaximumSize = new System.Drawing.Size(362, 275);

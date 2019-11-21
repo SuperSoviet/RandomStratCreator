@@ -38,33 +38,34 @@
       this.lblLinkGithub = new System.Windows.Forms.LinkLabel();
       this.lblStrat = new System.Windows.Forms.Button();
       this.lblRandomOption = new System.Windows.Forms.Button();
+      this.lblSecret = new System.Windows.Forms.Label();
       ((System.ComponentModel.ISupportInitialize)(this.pbMainmenu)).BeginInit();
       this.SuspendLayout();
       // 
       // fillin
       // 
-      this.fillin.Location = new System.Drawing.Point(306, 418);
-      this.fillin.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+      this.fillin.Location = new System.Drawing.Point(230, 340);
+      this.fillin.Margin = new System.Windows.Forms.Padding(2);
       this.fillin.Name = "fillin";
-      this.fillin.Size = new System.Drawing.Size(259, 22);
+      this.fillin.Size = new System.Drawing.Size(195, 20);
       this.fillin.TabIndex = 0;
       // 
       // Exit
       // 
-      this.Exit.Location = new System.Drawing.Point(713, 418);
-      this.Exit.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+      this.Exit.Location = new System.Drawing.Point(535, 340);
+      this.Exit.Margin = new System.Windows.Forms.Padding(2);
       this.Exit.Name = "Exit";
-      this.Exit.Size = new System.Drawing.Size(75, 27);
+      this.Exit.Size = new System.Drawing.Size(56, 22);
       this.Exit.TabIndex = 2;
       this.Exit.Text = "exit";
       this.Exit.UseVisualStyleBackColor = true;
       // 
       // btnExit
       // 
-      this.btnExit.Location = new System.Drawing.Point(330, 244);
-      this.btnExit.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+      this.btnExit.Location = new System.Drawing.Point(248, 198);
+      this.btnExit.Margin = new System.Windows.Forms.Padding(2);
       this.btnExit.Name = "btnExit";
-      this.btnExit.Size = new System.Drawing.Size(117, 30);
+      this.btnExit.Size = new System.Drawing.Size(88, 24);
       this.btnExit.TabIndex = 4;
       this.btnExit.Text = "Exit";
       this.btnExit.UseVisualStyleBackColor = true;
@@ -72,50 +73,55 @@
       // 
       // label1
       // 
-      this.label1.Location = new System.Drawing.Point(30, 7);
+      this.label1.Location = new System.Drawing.Point(22, 6);
+      this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
       this.label1.Name = "label1";
-      this.label1.Size = new System.Drawing.Size(401, 18);
+      this.label1.Size = new System.Drawing.Size(301, 15);
       this.label1.TabIndex = 5;
       this.label1.Text = "Welcome to the league of legends random strat generator!";
       // 
       // label2
       // 
-      this.label2.Location = new System.Drawing.Point(12, 32);
+      this.label2.Location = new System.Drawing.Point(9, 26);
+      this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
       this.label2.Name = "label2";
-      this.label2.Size = new System.Drawing.Size(194, 17);
+      this.label2.Size = new System.Drawing.Size(146, 14);
       this.label2.TabIndex = 6;
       this.label2.Text = "Select a random champion :\r\n";
       // 
       // label3
       // 
-      this.label3.Location = new System.Drawing.Point(12, 65);
+      this.label3.Location = new System.Drawing.Point(9, 53);
+      this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
       this.label3.Name = "label3";
-      this.label3.Size = new System.Drawing.Size(167, 22);
+      this.label3.Size = new System.Drawing.Size(125, 18);
       this.label3.TabIndex = 7;
       this.label3.Text = "Select a random role :\r\n";
       // 
       // label4
       // 
-      this.label4.Location = new System.Drawing.Point(12, 101);
+      this.label4.Location = new System.Drawing.Point(9, 82);
+      this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
       this.label4.Name = "label4";
-      this.label4.Size = new System.Drawing.Size(174, 18);
+      this.label4.Size = new System.Drawing.Size(130, 15);
       this.label4.TabIndex = 8;
       this.label4.Text = "Select  a random strat :\r\n";
       // 
       // label5
       // 
-      this.label5.Location = new System.Drawing.Point(12, 133);
+      this.label5.Location = new System.Drawing.Point(9, 108);
+      this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
       this.label5.Name = "label5";
-      this.label5.Size = new System.Drawing.Size(284, 22);
+      this.label5.Size = new System.Drawing.Size(213, 18);
       this.label5.TabIndex = 9;
       this.label5.Text = "Randomly gives you one of the options :\r\n";
       // 
       // btnRandomChampion
       // 
-      this.btnRandomChampion.Location = new System.Drawing.Point(330, 32);
-      this.btnRandomChampion.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+      this.btnRandomChampion.Location = new System.Drawing.Point(248, 26);
+      this.btnRandomChampion.Margin = new System.Windows.Forms.Padding(2);
       this.btnRandomChampion.Name = "btnRandomChampion";
-      this.btnRandomChampion.Size = new System.Drawing.Size(63, 23);
+      this.btnRandomChampion.Size = new System.Drawing.Size(47, 19);
       this.btnRandomChampion.TabIndex = 10;
       this.btnRandomChampion.Tag = "wad";
       this.btnRandomChampion.Text = "Select\r\n";
@@ -124,30 +130,32 @@
       // 
       // button4
       // 
-      this.button4.Location = new System.Drawing.Point(330, 62);
-      this.button4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+      this.button4.Location = new System.Drawing.Point(248, 50);
+      this.button4.Margin = new System.Windows.Forms.Padding(2);
       this.button4.Name = "button4";
-      this.button4.Size = new System.Drawing.Size(63, 25);
+      this.button4.Size = new System.Drawing.Size(47, 20);
       this.button4.TabIndex = 11;
       this.button4.Text = "Select";
       this.button4.UseVisualStyleBackColor = true;
-      this.button4.Click += new System.EventHandler(this.button4_Click);
+      this.button4.Click += new System.EventHandler(this.btnRoleSelector_Click);
       // 
       // pbMainmenu
       // 
       this.pbMainmenu.ImageLocation = "https://thumbs.gfycat.com/CostlyBriefFieldspaniel-small.gif";
-      this.pbMainmenu.Location = new System.Drawing.Point(102, -15);
+      this.pbMainmenu.Location = new System.Drawing.Point(76, -12);
+      this.pbMainmenu.Margin = new System.Windows.Forms.Padding(2);
       this.pbMainmenu.Name = "pbMainmenu";
-      this.pbMainmenu.Size = new System.Drawing.Size(688, 737);
+      this.pbMainmenu.Size = new System.Drawing.Size(516, 599);
       this.pbMainmenu.TabIndex = 12;
       this.pbMainmenu.TabStop = false;
       // 
       // lblLinkGithub
       // 
       this.lblLinkGithub.AutoSize = true;
-      this.lblLinkGithub.Location = new System.Drawing.Point(12, 244);
+      this.lblLinkGithub.Location = new System.Drawing.Point(9, 198);
+      this.lblLinkGithub.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
       this.lblLinkGithub.Name = "lblLinkGithub";
-      this.lblLinkGithub.Size = new System.Drawing.Size(72, 17);
+      this.lblLinkGithub.Size = new System.Drawing.Size(55, 13);
       this.lblLinkGithub.TabIndex = 13;
       this.lblLinkGithub.TabStop = true;
       this.lblLinkGithub.Text = "My Github";
@@ -155,30 +163,43 @@
       // 
       // lblStrat
       // 
-      this.lblStrat.Location = new System.Drawing.Point(330, 95);
+      this.lblStrat.Location = new System.Drawing.Point(248, 77);
+      this.lblStrat.Margin = new System.Windows.Forms.Padding(2);
       this.lblStrat.Name = "lblStrat";
-      this.lblStrat.Size = new System.Drawing.Size(63, 28);
+      this.lblStrat.Size = new System.Drawing.Size(47, 23);
       this.lblStrat.TabIndex = 14;
       this.lblStrat.Text = "Select";
       this.lblStrat.UseVisualStyleBackColor = true;
-      this.lblStrat.Click += new System.EventHandler(this.lblStrat_Click);
+      this.lblStrat.Click += new System.EventHandler(this.btnStrat_Click);
       // 
       // lblRandomOption
       // 
-      this.lblRandomOption.Location = new System.Drawing.Point(330, 131);
+      this.lblRandomOption.Location = new System.Drawing.Point(248, 106);
+      this.lblRandomOption.Margin = new System.Windows.Forms.Padding(2);
       this.lblRandomOption.Name = "lblRandomOption";
-      this.lblRandomOption.Size = new System.Drawing.Size(63, 24);
+      this.lblRandomOption.Size = new System.Drawing.Size(47, 20);
       this.lblRandomOption.TabIndex = 15;
       this.lblRandomOption.Text = "Select";
       this.lblRandomOption.UseVisualStyleBackColor = true;
-      this.lblRandomOption.Click += new System.EventHandler(this.lblRandomOption_Click);
+      this.lblRandomOption.Click += new System.EventHandler(this.btnRandomOption_Click);
+      // 
+      // lblSecret
+      // 
+      this.lblSecret.BackColor = System.Drawing.Color.Transparent;
+      this.lblSecret.ForeColor = System.Drawing.Color.Transparent;
+      this.lblSecret.Location = new System.Drawing.Point(9, 211);
+      this.lblSecret.Name = "lblSecret";
+      this.lblSecret.Size = new System.Drawing.Size(100, 23);
+      this.lblSecret.TabIndex = 16;
+      this.lblSecret.Click += new System.EventHandler(this.lblSecret_Click_1);
       // 
       // Form1
       // 
-      this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+      this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
       this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
       this.BackColor = System.Drawing.SystemColors.Control;
-      this.ClientSize = new System.Drawing.Size(459, 283);
+      this.ClientSize = new System.Drawing.Size(346, 236);
+      this.Controls.Add(this.lblSecret);
       this.Controls.Add(this.lblRandomOption);
       this.Controls.Add(this.lblStrat);
       this.Controls.Add(this.lblLinkGithub);
@@ -194,8 +215,9 @@
       this.Controls.Add(this.fillin);
       this.Controls.Add(this.pbMainmenu);
       this.Location = new System.Drawing.Point(19, 19);
-      this.MaximumSize = new System.Drawing.Size(477, 330);
-      this.MinimumSize = new System.Drawing.Size(477, 330);
+      this.Margin = new System.Windows.Forms.Padding(2);
+      this.MaximumSize = new System.Drawing.Size(362, 275);
+      this.MinimumSize = new System.Drawing.Size(362, 275);
       this.Name = "Form1";
       ((System.ComponentModel.ISupportInitialize)(this.pbMainmenu)).EndInit();
       this.ResumeLayout(false);
@@ -219,6 +241,7 @@
     private System.Windows.Forms.LinkLabel lblLinkGithub;
     private System.Windows.Forms.Button lblStrat;
     private System.Windows.Forms.Button lblRandomOption;
+    private System.Windows.Forms.Label lblSecret;
   }
 }
 

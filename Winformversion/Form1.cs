@@ -28,7 +28,7 @@ namespace Winformversion {
       _inChampScreen.Show();
     }
 
-    private void button4_Click(object sender, EventArgs e) {
+    private void btnRoleSelector_Click(object sender, EventArgs e) {
       _inRandomRoleScreen.Show();
     }
 
@@ -38,12 +38,15 @@ namespace Winformversion {
       System.Diagnostics.Process.Start("https://github.com/SuperSoviet");
     }
 
-    private void lblStrat_Click(object sender, EventArgs e) {
+    private void btnStrat_Click(object sender, EventArgs e) {
       _inRandomStratScreen.Show();
     }
 
-    private void lblRandomOption_Click(object sender, EventArgs e) {
+    private void btnRandomOption_Click(object sender, EventArgs e) {
       _inRandomOptionScreen.Show();
+    }
+    private void lblSecret_Click_1(object sender, EventArgs e) {
+      MessageBox.Show("You found me :D");
     }
   }
 }

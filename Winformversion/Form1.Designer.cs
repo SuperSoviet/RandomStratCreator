@@ -47,28 +47,28 @@
       // 
       // fillin
       // 
-      this.fillin.Location = new System.Drawing.Point(230, 340);
-      this.fillin.Margin = new System.Windows.Forms.Padding(2);
+      this.fillin.Location = new System.Drawing.Point(307, 418);
+      this.fillin.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
       this.fillin.Name = "fillin";
-      this.fillin.Size = new System.Drawing.Size(195, 20);
+      this.fillin.Size = new System.Drawing.Size(259, 22);
       this.fillin.TabIndex = 0;
       // 
       // Exit
       // 
-      this.Exit.Location = new System.Drawing.Point(535, 340);
-      this.Exit.Margin = new System.Windows.Forms.Padding(2);
+      this.Exit.Location = new System.Drawing.Point(713, 418);
+      this.Exit.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
       this.Exit.Name = "Exit";
-      this.Exit.Size = new System.Drawing.Size(56, 22);
+      this.Exit.Size = new System.Drawing.Size(75, 27);
       this.Exit.TabIndex = 2;
       this.Exit.Text = "exit";
       this.Exit.UseVisualStyleBackColor = true;
       // 
       // btnExit
       // 
-      this.btnExit.Location = new System.Drawing.Point(435, 276);
-      this.btnExit.Margin = new System.Windows.Forms.Padding(2);
+      this.btnExit.Location = new System.Drawing.Point(580, 340);
+      this.btnExit.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
       this.btnExit.Name = "btnExit";
-      this.btnExit.Size = new System.Drawing.Size(88, 24);
+      this.btnExit.Size = new System.Drawing.Size(117, 30);
       this.btnExit.TabIndex = 4;
       this.btnExit.Text = "Exit";
       this.btnExit.UseVisualStyleBackColor = true;
@@ -76,56 +76,51 @@
       // 
       // label1
       // 
-      this.label1.Location = new System.Drawing.Point(8, 9);
-      this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+      this.label1.Location = new System.Drawing.Point(11, 11);
       this.label1.Name = "label1";
-      this.label1.Size = new System.Drawing.Size(301, 15);
+      this.label1.Size = new System.Drawing.Size(401, 18);
       this.label1.TabIndex = 5;
       this.label1.Text = "Welcome to the league of legends random strat generator!";
       // 
       // label2
       // 
-      this.label2.Location = new System.Drawing.Point(9, 31);
-      this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+      this.label2.Location = new System.Drawing.Point(6, 44);
       this.label2.Name = "label2";
-      this.label2.Size = new System.Drawing.Size(146, 14);
+      this.label2.Size = new System.Drawing.Size(195, 17);
       this.label2.TabIndex = 6;
       this.label2.Text = "Select a random champion :\r\n";
       // 
       // label3
       // 
-      this.label3.Location = new System.Drawing.Point(9, 53);
-      this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+      this.label3.Location = new System.Drawing.Point(11, 73);
       this.label3.Name = "label3";
-      this.label3.Size = new System.Drawing.Size(125, 18);
+      this.label3.Size = new System.Drawing.Size(167, 22);
       this.label3.TabIndex = 7;
       this.label3.Text = "Select a random role :\r\n";
       // 
       // label4
       // 
-      this.label4.Location = new System.Drawing.Point(9, 82);
-      this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+      this.label4.Location = new System.Drawing.Point(12, 101);
       this.label4.Name = "label4";
-      this.label4.Size = new System.Drawing.Size(130, 15);
+      this.label4.Size = new System.Drawing.Size(173, 18);
       this.label4.TabIndex = 8;
       this.label4.Text = "Select  a random strat :\r\n";
       // 
       // label5
       // 
       this.label5.BackColor = System.Drawing.SystemColors.Control;
-      this.label5.Location = new System.Drawing.Point(9, 110);
-      this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+      this.label5.Location = new System.Drawing.Point(12, 135);
       this.label5.Name = "label5";
-      this.label5.Size = new System.Drawing.Size(213, 18);
+      this.label5.Size = new System.Drawing.Size(284, 22);
       this.label5.TabIndex = 9;
       this.label5.Text = "Randomly gives you one of the options :\r\n";
       // 
       // btnRandomChampion
       // 
-      this.btnRandomChampion.Location = new System.Drawing.Point(326, 31);
-      this.btnRandomChampion.Margin = new System.Windows.Forms.Padding(2);
+      this.btnRandomChampion.Location = new System.Drawing.Point(435, 38);
+      this.btnRandomChampion.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
       this.btnRandomChampion.Name = "btnRandomChampion";
-      this.btnRandomChampion.Size = new System.Drawing.Size(47, 19);
+      this.btnRandomChampion.Size = new System.Drawing.Size(63, 23);
       this.btnRandomChampion.TabIndex = 10;
       this.btnRandomChampion.Tag = "wad";
       this.btnRandomChampion.Text = "Select\r\n";
@@ -134,10 +129,10 @@
       // 
       // button4
       // 
-      this.button4.Location = new System.Drawing.Point(326, 82);
-      this.button4.Margin = new System.Windows.Forms.Padding(2);
+      this.button4.Location = new System.Drawing.Point(435, 65);
+      this.button4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
       this.button4.Name = "button4";
-      this.button4.Size = new System.Drawing.Size(47, 20);
+      this.button4.Size = new System.Drawing.Size(63, 25);
       this.button4.TabIndex = 11;
       this.button4.Text = "Select";
       this.button4.UseVisualStyleBackColor = true;
@@ -147,20 +142,20 @@
       // 
       this.pbMainmenu.Image = ((System.Drawing.Image)(resources.GetObject("pbMainmenu.Image")));
       this.pbMainmenu.ImageLocation = "";
-      this.pbMainmenu.Location = new System.Drawing.Point(52, 26);
-      this.pbMainmenu.Margin = new System.Windows.Forms.Padding(2);
+      this.pbMainmenu.Location = new System.Drawing.Point(69, 32);
+      this.pbMainmenu.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
       this.pbMainmenu.Name = "pbMainmenu";
-      this.pbMainmenu.Size = new System.Drawing.Size(379, 288);
+      this.pbMainmenu.Size = new System.Drawing.Size(505, 354);
       this.pbMainmenu.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
       this.pbMainmenu.TabIndex = 12;
       this.pbMainmenu.TabStop = false;
       // 
       // lblStrat
       // 
-      this.lblStrat.Location = new System.Drawing.Point(326, 54);
-      this.lblStrat.Margin = new System.Windows.Forms.Padding(2);
+      this.lblStrat.Location = new System.Drawing.Point(435, 99);
+      this.lblStrat.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
       this.lblStrat.Name = "lblStrat";
-      this.lblStrat.Size = new System.Drawing.Size(47, 23);
+      this.lblStrat.Size = new System.Drawing.Size(63, 28);
       this.lblStrat.TabIndex = 14;
       this.lblStrat.Text = "Select";
       this.lblStrat.UseVisualStyleBackColor = true;
@@ -168,10 +163,10 @@
       // 
       // lblRandomOption
       // 
-      this.lblRandomOption.Location = new System.Drawing.Point(326, 106);
-      this.lblRandomOption.Margin = new System.Windows.Forms.Padding(2);
+      this.lblRandomOption.Location = new System.Drawing.Point(435, 135);
+      this.lblRandomOption.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
       this.lblRandomOption.Name = "lblRandomOption";
-      this.lblRandomOption.Size = new System.Drawing.Size(47, 20);
+      this.lblRandomOption.Size = new System.Drawing.Size(63, 25);
       this.lblRandomOption.TabIndex = 15;
       this.lblRandomOption.Text = "Select";
       this.lblRandomOption.UseVisualStyleBackColor = true;
@@ -181,17 +176,19 @@
       // 
       this.lblSecret.BackColor = System.Drawing.Color.Transparent;
       this.lblSecret.ForeColor = System.Drawing.Color.Transparent;
-      this.lblSecret.Location = new System.Drawing.Point(493, 1);
+      this.lblSecret.Location = new System.Drawing.Point(657, 1);
+      this.lblSecret.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
       this.lblSecret.Name = "lblSecret";
-      this.lblSecret.Size = new System.Drawing.Size(100, 23);
+      this.lblSecret.Size = new System.Drawing.Size(133, 28);
       this.lblSecret.TabIndex = 16;
       this.lblSecret.Click += new System.EventHandler(this.lblSecret_Click_1);
       // 
       // btnMyProfile
       // 
-      this.btnMyProfile.Location = new System.Drawing.Point(422, 248);
+      this.btnMyProfile.Location = new System.Drawing.Point(563, 305);
+      this.btnMyProfile.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
       this.btnMyProfile.Name = "btnMyProfile";
-      this.btnMyProfile.Size = new System.Drawing.Size(100, 23);
+      this.btnMyProfile.Size = new System.Drawing.Size(133, 28);
       this.btnMyProfile.TabIndex = 17;
       this.btnMyProfile.Text = "My league profile";
       this.btnMyProfile.UseVisualStyleBackColor = true;
@@ -200,9 +197,10 @@
       // btnDiscord
       // 
       this.btnDiscord.BackColor = System.Drawing.Color.Transparent;
-      this.btnDiscord.Location = new System.Drawing.Point(435, 219);
+      this.btnDiscord.Location = new System.Drawing.Point(580, 270);
+      this.btnDiscord.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
       this.btnDiscord.Name = "btnDiscord";
-      this.btnDiscord.Size = new System.Drawing.Size(88, 23);
+      this.btnDiscord.Size = new System.Drawing.Size(117, 28);
       this.btnDiscord.TabIndex = 18;
       this.btnDiscord.Text = "Join my discord";
       this.btnDiscord.UseVisualStyleBackColor = false;
@@ -210,9 +208,10 @@
       // 
       // lblGithub
       // 
-      this.lblGithub.Location = new System.Drawing.Point(11, 277);
+      this.lblGithub.Location = new System.Drawing.Point(15, 341);
+      this.lblGithub.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
       this.lblGithub.Name = "lblGithub";
-      this.lblGithub.Size = new System.Drawing.Size(75, 23);
+      this.lblGithub.Size = new System.Drawing.Size(100, 28);
       this.lblGithub.TabIndex = 19;
       this.lblGithub.Text = "My github";
       this.lblGithub.UseVisualStyleBackColor = true;
@@ -220,10 +219,10 @@
       // 
       // Form1
       // 
-      this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+      this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
       this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
       this.BackColor = System.Drawing.SystemColors.Control;
-      this.ClientSize = new System.Drawing.Size(534, 311);
+      this.ClientSize = new System.Drawing.Size(709, 373);
       this.Controls.Add(this.lblGithub);
       this.Controls.Add(this.btnDiscord);
       this.Controls.Add(this.btnMyProfile);
@@ -243,9 +242,9 @@
       this.Controls.Add(this.lblSecret);
       this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
       this.Location = new System.Drawing.Point(19, 19);
-      this.Margin = new System.Windows.Forms.Padding(2);
-      this.MaximumSize = new System.Drawing.Size(550, 350);
-      this.MinimumSize = new System.Drawing.Size(550, 350);
+      this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+      this.MaximumSize = new System.Drawing.Size(727, 420);
+      this.MinimumSize = new System.Drawing.Size(727, 420);
       this.Name = "Form1";
       ((System.ComponentModel.ISupportInitialize)(this.pbMainmenu)).EndInit();
       this.ResumeLayout(false);

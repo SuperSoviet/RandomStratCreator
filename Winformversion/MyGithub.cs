@@ -20,9 +20,6 @@ namespace Winformversion {
       InitializeChromium();
     }
     private void InitializeChromium() {
-      CefSettings settings = new CefSettings();
-      //initialize Cef with the provided settings
-      Cef.Initialize(settings);
       //create a browser component
       //and provide a start web url
       chromebrowser = new ChromiumWebBrowser("https://github.com/SuperSoviet");

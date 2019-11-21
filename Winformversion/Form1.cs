@@ -49,8 +49,8 @@ namespace Winformversion {
       inOpgg.Show();
     }
     private void btnDiscord_Click(object sender, EventArgs e) {
-      discord indiscord = new discord();
-      indiscord.Show();
+      discord DiscordWindow = new discord();
+      DiscordWindow.Show();
     }
 
     private void lblGithub_Click(object sender, EventArgs e) {

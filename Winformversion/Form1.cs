@@ -46,7 +46,7 @@ namespace Winformversion {
       _inRandomOptionScreen.Show();
     }
     private void lblSecret_Click_1(object sender, EventArgs e) {
-      MessageBox.Show("You found me :D");
+      System.Diagnostics.Process.Start("https://www.reddit.com/r/KaynMains/");
 
     }
   }

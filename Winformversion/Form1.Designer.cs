@@ -63,7 +63,7 @@
       // 
       // btnExit
       // 
-      this.btnExit.Location = new System.Drawing.Point(248, 198);
+      this.btnExit.Location = new System.Drawing.Point(435, 276);
       this.btnExit.Margin = new System.Windows.Forms.Padding(2);
       this.btnExit.Name = "btnExit";
       this.btnExit.Size = new System.Drawing.Size(88, 24);
@@ -120,7 +120,7 @@
       // 
       // btnRandomChampion
       // 
-      this.btnRandomChampion.Location = new System.Drawing.Point(248, 26);
+      this.btnRandomChampion.Location = new System.Drawing.Point(326, 31);
       this.btnRandomChampion.Margin = new System.Windows.Forms.Padding(2);
       this.btnRandomChampion.Name = "btnRandomChampion";
       this.btnRandomChampion.Size = new System.Drawing.Size(47, 19);
@@ -132,7 +132,7 @@
       // 
       // button4
       // 
-      this.button4.Location = new System.Drawing.Point(248, 50);
+      this.button4.Location = new System.Drawing.Point(326, 82);
       this.button4.Margin = new System.Windows.Forms.Padding(2);
       this.button4.Name = "button4";
       this.button4.Size = new System.Drawing.Size(47, 20);
@@ -145,18 +145,18 @@
       // 
       this.pbMainmenu.Image = ((System.Drawing.Image)(resources.GetObject("pbMainmenu.Image")));
       this.pbMainmenu.ImageLocation = "";
-      this.pbMainmenu.Location = new System.Drawing.Point(68, 1);
+      this.pbMainmenu.Location = new System.Drawing.Point(52, 12);
       this.pbMainmenu.Margin = new System.Windows.Forms.Padding(2);
       this.pbMainmenu.Name = "pbMainmenu";
-      this.pbMainmenu.Size = new System.Drawing.Size(269, 228);
-      this.pbMainmenu.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+      this.pbMainmenu.Size = new System.Drawing.Size(379, 288);
+      this.pbMainmenu.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
       this.pbMainmenu.TabIndex = 12;
       this.pbMainmenu.TabStop = false;
       // 
       // lblLinkGithub
       // 
       this.lblLinkGithub.AutoSize = true;
-      this.lblLinkGithub.Location = new System.Drawing.Point(9, 198);
+      this.lblLinkGithub.Location = new System.Drawing.Point(8, 287);
       this.lblLinkGithub.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
       this.lblLinkGithub.Name = "lblLinkGithub";
       this.lblLinkGithub.Size = new System.Drawing.Size(55, 13);
@@ -167,7 +167,7 @@
       // 
       // lblStrat
       // 
-      this.lblStrat.Location = new System.Drawing.Point(248, 77);
+      this.lblStrat.Location = new System.Drawing.Point(326, 54);
       this.lblStrat.Margin = new System.Windows.Forms.Padding(2);
       this.lblStrat.Name = "lblStrat";
       this.lblStrat.Size = new System.Drawing.Size(47, 23);
@@ -178,7 +178,7 @@
       // 
       // lblRandomOption
       // 
-      this.lblRandomOption.Location = new System.Drawing.Point(248, 106);
+      this.lblRandomOption.Location = new System.Drawing.Point(326, 106);
       this.lblRandomOption.Margin = new System.Windows.Forms.Padding(2);
       this.lblRandomOption.Name = "lblRandomOption";
       this.lblRandomOption.Size = new System.Drawing.Size(47, 20);
@@ -191,7 +191,7 @@
       // 
       this.lblSecret.BackColor = System.Drawing.Color.Transparent;
       this.lblSecret.ForeColor = System.Drawing.Color.Transparent;
-      this.lblSecret.Location = new System.Drawing.Point(323, 1);
+      this.lblSecret.Location = new System.Drawing.Point(493, 1);
       this.lblSecret.Name = "lblSecret";
       this.lblSecret.Size = new System.Drawing.Size(100, 23);
       this.lblSecret.TabIndex = 16;
@@ -202,7 +202,7 @@
       this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
       this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
       this.BackColor = System.Drawing.SystemColors.Control;
-      this.ClientSize = new System.Drawing.Size(346, 236);
+      this.ClientSize = new System.Drawing.Size(534, 311);
       this.Controls.Add(this.lblRandomOption);
       this.Controls.Add(this.lblStrat);
       this.Controls.Add(this.lblLinkGithub);
@@ -221,8 +221,8 @@
       this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
       this.Location = new System.Drawing.Point(19, 19);
       this.Margin = new System.Windows.Forms.Padding(2);
-      this.MaximumSize = new System.Drawing.Size(362, 275);
-      this.MinimumSize = new System.Drawing.Size(362, 275);
+      this.MaximumSize = new System.Drawing.Size(550, 350);
+      this.MinimumSize = new System.Drawing.Size(550, 350);
       this.Name = "Form1";
       ((System.ComponentModel.ISupportInitialize)(this.pbMainmenu)).EndInit();
       this.ResumeLayout(false);

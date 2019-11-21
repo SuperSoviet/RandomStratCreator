@@ -40,6 +40,8 @@
       this.lblStrat = new System.Windows.Forms.Button();
       this.lblRandomOption = new System.Windows.Forms.Button();
       this.lblSecret = new System.Windows.Forms.Label();
+      this.btnMyProfile = new System.Windows.Forms.Button();
+      this.btnDiscord = new System.Windows.Forms.Button();
       ((System.ComponentModel.ISupportInitialize)(this.pbMainmenu)).BeginInit();
       this.SuspendLayout();
       // 
@@ -145,7 +147,7 @@
       // 
       this.pbMainmenu.Image = ((System.Drawing.Image)(resources.GetObject("pbMainmenu.Image")));
       this.pbMainmenu.ImageLocation = "";
-      this.pbMainmenu.Location = new System.Drawing.Point(52, 12);
+      this.pbMainmenu.Location = new System.Drawing.Point(52, 26);
       this.pbMainmenu.Margin = new System.Windows.Forms.Padding(2);
       this.pbMainmenu.Name = "pbMainmenu";
       this.pbMainmenu.Size = new System.Drawing.Size(379, 288);
@@ -197,12 +199,35 @@
       this.lblSecret.TabIndex = 16;
       this.lblSecret.Click += new System.EventHandler(this.lblSecret_Click_1);
       // 
+      // btnMyProfile
+      // 
+      this.btnMyProfile.Location = new System.Drawing.Point(422, 248);
+      this.btnMyProfile.Name = "btnMyProfile";
+      this.btnMyProfile.Size = new System.Drawing.Size(100, 23);
+      this.btnMyProfile.TabIndex = 17;
+      this.btnMyProfile.Text = "My league profile";
+      this.btnMyProfile.UseVisualStyleBackColor = true;
+      this.btnMyProfile.Click += new System.EventHandler(this.btnMyProfile_Click);
+      // 
+      // btnDiscord
+      // 
+      this.btnDiscord.BackColor = System.Drawing.Color.Transparent;
+      this.btnDiscord.Location = new System.Drawing.Point(435, 219);
+      this.btnDiscord.Name = "btnDiscord";
+      this.btnDiscord.Size = new System.Drawing.Size(88, 23);
+      this.btnDiscord.TabIndex = 18;
+      this.btnDiscord.Text = "Join my discord";
+      this.btnDiscord.UseVisualStyleBackColor = false;
+      this.btnDiscord.Click += new System.EventHandler(this.btnDiscord_Click);
+      // 
       // Form1
       // 
       this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
       this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
       this.BackColor = System.Drawing.SystemColors.Control;
       this.ClientSize = new System.Drawing.Size(534, 311);
+      this.Controls.Add(this.btnDiscord);
+      this.Controls.Add(this.btnMyProfile);
       this.Controls.Add(this.lblRandomOption);
       this.Controls.Add(this.lblStrat);
       this.Controls.Add(this.lblLinkGithub);
@@ -247,6 +272,8 @@
     private System.Windows.Forms.Button lblStrat;
     private System.Windows.Forms.Button lblRandomOption;
     private System.Windows.Forms.Label lblSecret;
+    private System.Windows.Forms.Button btnMyProfile;
+    private System.Windows.Forms.Button btnDiscord;
   }
 }
 

@@ -49,5 +49,14 @@ namespace Winformversion {
       System.Diagnostics.Process.Start("https://www.reddit.com/r/KaynMains/");
 
     }
+
+    private void btnMyProfile_Click(object sender, EventArgs e) {
+      LeagueProfile inOpgg = new LeagueProfile();
+      inOpgg.Show();
+    }
+    private void btnDiscord_Click(object sender, EventArgs e) {
+      discord indiscord = new discord();
+      indiscord.Show();
+    }
   }
 }

@@ -32,12 +32,6 @@ namespace Winformversion {
       _inRandomRoleScreen.Show();
     }
 
-    private void lblLinkGithub_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e) {
-      lblLinkGithub.LinkVisited = true;
-
-      System.Diagnostics.Process.Start("https://github.com/SuperSoviet");
-    }
-
     private void btnStrat_Click(object sender, EventArgs e) {
       _inRandomStratScreen.Show();
     }
@@ -57,6 +51,11 @@ namespace Winformversion {
     private void btnDiscord_Click(object sender, EventArgs e) {
       discord indiscord = new discord();
       indiscord.Show();
+    }
+
+    private void lblGithub_Click(object sender, EventArgs e) {
+      MyGithub ingithub = new MyGithub();
+      ingithub.Show();
     }
   }
 }

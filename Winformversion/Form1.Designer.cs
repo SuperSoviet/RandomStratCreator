@@ -36,12 +36,12 @@
       this.btnRandomChampion = new System.Windows.Forms.Button();
       this.button4 = new System.Windows.Forms.Button();
       this.pbMainmenu = new System.Windows.Forms.PictureBox();
-      this.lblLinkGithub = new System.Windows.Forms.LinkLabel();
       this.lblStrat = new System.Windows.Forms.Button();
       this.lblRandomOption = new System.Windows.Forms.Button();
       this.lblSecret = new System.Windows.Forms.Label();
       this.btnMyProfile = new System.Windows.Forms.Button();
       this.btnDiscord = new System.Windows.Forms.Button();
+      this.lblGithub = new System.Windows.Forms.Button();
       ((System.ComponentModel.ISupportInitialize)(this.pbMainmenu)).BeginInit();
       this.SuspendLayout();
       // 
@@ -155,18 +155,6 @@
       this.pbMainmenu.TabIndex = 12;
       this.pbMainmenu.TabStop = false;
       // 
-      // lblLinkGithub
-      // 
-      this.lblLinkGithub.AutoSize = true;
-      this.lblLinkGithub.Location = new System.Drawing.Point(8, 287);
-      this.lblLinkGithub.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-      this.lblLinkGithub.Name = "lblLinkGithub";
-      this.lblLinkGithub.Size = new System.Drawing.Size(55, 13);
-      this.lblLinkGithub.TabIndex = 13;
-      this.lblLinkGithub.TabStop = true;
-      this.lblLinkGithub.Text = "My Github";
-      this.lblLinkGithub.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.lblLinkGithub_LinkClicked);
-      // 
       // lblStrat
       // 
       this.lblStrat.Location = new System.Drawing.Point(326, 54);
@@ -220,17 +208,27 @@
       this.btnDiscord.UseVisualStyleBackColor = false;
       this.btnDiscord.Click += new System.EventHandler(this.btnDiscord_Click);
       // 
+      // lblGithub
+      // 
+      this.lblGithub.Location = new System.Drawing.Point(11, 277);
+      this.lblGithub.Name = "lblGithub";
+      this.lblGithub.Size = new System.Drawing.Size(75, 23);
+      this.lblGithub.TabIndex = 19;
+      this.lblGithub.Text = "My github";
+      this.lblGithub.UseVisualStyleBackColor = true;
+      this.lblGithub.Click += new System.EventHandler(this.lblGithub_Click);
+      // 
       // Form1
       // 
       this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
       this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
       this.BackColor = System.Drawing.SystemColors.Control;
       this.ClientSize = new System.Drawing.Size(534, 311);
+      this.Controls.Add(this.lblGithub);
       this.Controls.Add(this.btnDiscord);
       this.Controls.Add(this.btnMyProfile);
       this.Controls.Add(this.lblRandomOption);
       this.Controls.Add(this.lblStrat);
-      this.Controls.Add(this.lblLinkGithub);
       this.Controls.Add(this.button4);
       this.Controls.Add(this.btnRandomChampion);
       this.Controls.Add(this.label5);
@@ -268,12 +266,12 @@
     private System.Windows.Forms.Button btnRandomChampion;
     private System.Windows.Forms.Button button4;
     private System.Windows.Forms.PictureBox pbMainmenu;
-    private System.Windows.Forms.LinkLabel lblLinkGithub;
     private System.Windows.Forms.Button lblStrat;
     private System.Windows.Forms.Button lblRandomOption;
     private System.Windows.Forms.Label lblSecret;
     private System.Windows.Forms.Button btnMyProfile;
     private System.Windows.Forms.Button btnDiscord;
+    private System.Windows.Forms.Button lblGithub;
   }
 }
 

@@ -11,9 +11,6 @@ using System.Windows.Forms.VisualStyles;
 
 namespace Winformversion {
   public partial class Form1 : Form {
-    private RandomChampion _inChampScreen = new RandomChampion();
-    private RandomRole _inRandomRoleScreen = new RandomRole();
-    private RandomStrat _inRandomStratScreen = new RandomStrat();
     private RandomOption _inRandomOptionScreen = new RandomOption();
     
     public Form1() {
@@ -25,19 +22,23 @@ namespace Winformversion {
       Close();
     }
     private void btnRandomChampion_Click(object sender, EventArgs e) {
-      _inChampScreen.Show();
+      RandomChampion ChampScreen = new RandomChampion();
+      ChampScreen.Show();
     }
 
     private void btnRoleSelector_Click(object sender, EventArgs e) {
-      _inRandomRoleScreen.Show();
+      RandomRole RandomRoleScreen = new RandomRole();
+      RandomRoleScreen.Show();
     }
 
     private void btnStrat_Click(object sender, EventArgs e) {
-      _inRandomStratScreen.Show();
+      RandomStrat RandomStratScreen = new RandomStrat();
+      RandomStratScreen.Show();
     }
 
     private void btnRandomOption_Click(object sender, EventArgs e) {
-      _inRandomOptionScreen.Show();
+      RandomOption RandomOptionScreen = new RandomOption();
+      RandomOptionScreen.Show();
     }
     private void lblSecret_Click_1(object sender, EventArgs e) {
       System.Diagnostics.Process.Start("https://www.reddit.com/r/KaynMains/");
